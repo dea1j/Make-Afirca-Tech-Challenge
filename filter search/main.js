@@ -13,12 +13,13 @@ const list = document.getElementById('list');
 
 const searches = search => {
     let matches = people.filter(person => {
-        const regex = new RegExp(`${search}`, 'gi');
+        const regex = new RegExp(`^${search}`, 'gi');
         return person.name.match(regex)
     })
-         console.log(matches)
+    console.log(matches)
+    
     if (search.length === 0) {
-        person = [];
+        matches = [];
         list.innerHTML = [];
     }
     outputHtml(matches)
