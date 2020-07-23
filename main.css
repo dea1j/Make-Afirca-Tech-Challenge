@@ -10,7 +10,8 @@
     text-align: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #deb887;
+    /* background-color: #deb887; */
+    background: #2ebe6f;
 }
 h1 {
     color: #fff;
@@ -19,7 +20,7 @@ h1 {
     align-items: flex-start;
 }
 .card {
-    background-color: #f3e0be;
+    background-color: #5194ca;
     margin-bottom: 10px;
     padding: 20px;
     cursor: pointer;
