@@ -16,3 +16,6 @@ The CSS framework 'bootstrap' was used to make it look beautiful.
 
 ### Converted Todolist to a React app:
 Converted the todo list project to a react js app.
+
+### Loaner App:
+A fintech app used to monitor loans collected by individuals, made with react js.
