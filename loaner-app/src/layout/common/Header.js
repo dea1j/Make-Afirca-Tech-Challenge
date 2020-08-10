@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Header() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav className="navbar navbar-expand-lg navbar-dark bg-danger">
         <div className="container">
           <a
             style={{ fontWeight: "700", fontSize: "30px" }}
@@ -33,9 +33,9 @@ export default function Header() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <Link to="/profile" className="nav-link" href="#">
                   Profile
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">
@@ -43,10 +43,13 @@ export default function Header() {
                 </a>
               </li>
             </ul>
-            <Link to="/auth/login" className="btn btn-light mr-4 my-2 my-sm-0">
+            <Link
+              to="/auth/login"
+              className="btn btn-primary mr-4 my-2 my-sm-0"
+            >
               Login
             </Link>
-            <Link to="/auth/signup" className="btn btn-light my-2 my-sm-0">
+            <Link to="/auth/signup" className="btn btn-primary my-2 my-sm-0">
               SignUp
             </Link>
           </div>

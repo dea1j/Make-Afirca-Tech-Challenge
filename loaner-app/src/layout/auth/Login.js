@@ -26,7 +26,7 @@ export default function Login() {
               />
             </div>
             <div className="form-group">
-              <button className="btn btn-dark btn-block" type="submit">
+              <button className="btn btn-danger btn-block" type="submit">
                 Login
               </button>
             </div>
