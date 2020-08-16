@@ -95,12 +95,12 @@ export default function Signup() {
             <div className="form-group text-center">
               <button
                 onClick={() => SetRegistrationStage(1)}
-                className="btn btn-success btn-sm"
+                className="btn btn-danger btn-sm"
                 type="submit"
               >
                 {"<<"}Previous
               </button>
-              <button className="btn btn-success btn-sm ml-2" type="submit">
+              <button className="btn btn-danger btn-sm ml-2" type="submit">
                 Create Account
               </button>
             </div>
