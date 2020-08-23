@@ -98,7 +98,7 @@ export default function Signup() {
                 className="btn btn-danger btn-sm"
                 type="submit"
               >
-                {"<<"}Previous
+                {"<< "} Previous
               </button>
               <button className="btn btn-danger btn-sm ml-2" type="submit">
                 Create Account
