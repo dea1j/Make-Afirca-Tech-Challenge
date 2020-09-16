@@ -3,7 +3,6 @@ import { Modal } from "react-bootstrap";
 import Header from "../common/Header";
 import { FaEdit } from "react-icons/fa";
 import pic from "../../img/pp.jpg";
-// import Avatar from 'react-avatar-edit';
 
 function Profile() {
   const [editModalOpen, setEditModalOpen] = useState(false);
